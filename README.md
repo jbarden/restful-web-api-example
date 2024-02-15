@@ -1,6 +1,8 @@
 # restful-web-api-example
 An approach to creating RESTful Web APIs
 
+## GitHub build
+[![Build and test solution](https://github.com/jbarden/restful-web-api-example/actions/workflows/dotnet.yml/badge.svg)](https://github.com/jbarden/restful-web-api-example/actions/workflows/dotnet.yml)
 
 ## SonarCloud Analysis Results
 
