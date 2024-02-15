@@ -54,10 +54,3 @@ jobs:
           dotnet build --configuration Release p:Version="${{env.SEMVER}}-alpha${{env.BuildMetaData}}"
           dotnet-coverage collect 'dotnet test --filter "FullyQualifiedName!~Acceptance.Tests"' -f xml -o 'coverage.xml'
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
-
-      - name: Upload dotnet test results
-        uses: actions/upload-artifact@v3
-        with:
-          name: 'coverage.xml'
-          path: .
-        if: ${{ always() }}

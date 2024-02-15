@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
-namespace AStar.WebApi;
+namespace AStar.WebApi.Integration.Tests;
 
 public class WeatherForecast
 {
