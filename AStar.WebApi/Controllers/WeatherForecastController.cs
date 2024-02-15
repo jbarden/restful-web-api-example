@@ -1,6 +1,9 @@
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AStar.WebApi.Controllers;
+
+[ExcludeFromCodeCoverage]
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase

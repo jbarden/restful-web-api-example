@@ -1,6 +1,9 @@
 
+using System.Diagnostics.CodeAnalysis;
+
 namespace AStar.WebApi;
 
+[ExcludeFromCodeCoverage]
 public class Program
 {
     protected Program()
