@@ -17,6 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration tests", "integr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStar.WebApi.Integration.Tests", "AStar.WebApi.Integration.Tests\AStar.WebApi.Integration.Tests.csproj", "{F6EC7075-84E4-4CB6-838D-8A0A00EB1B73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7FA041A-E2EC-4B9F-80CE-669404329026}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gjthub", "gjthub", "{86F99C1F-55D4-478C-993F-C6A12E0EBDEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{577CBA1C-7482-4D01-816B-302EF1F72558}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +57,8 @@ Global
 		{943D01B1-DE29-418E-9E69-B3556BBBCABB} = {A6531486-1757-48E4-9D1A-7FC4AED46D9B}
 		{384A6288-931A-4DA6-AE51-B8E4C987BD05} = {A9E3550A-94BA-4036-AB42-714401960D02}
 		{F6EC7075-84E4-4CB6-838D-8A0A00EB1B73} = {384A6288-931A-4DA6-AE51-B8E4C987BD05}
+		{86F99C1F-55D4-478C-993F-C6A12E0EBDEA} = {F7FA041A-E2EC-4B9F-80CE-669404329026}
+		{577CBA1C-7482-4D01-816B-302EF1F72558} = {86F99C1F-55D4-478C-993F-C6A12E0EBDEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7E98F02-0DAD-4EAD-ACC3-AA436F4558C2}
